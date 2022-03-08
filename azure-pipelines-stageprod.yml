@@ -3,8 +3,7 @@
 trigger:
   branches:
     include:
-    - release/*
-    - refs/tags/*
+    - main
   paths:
     exclude:
     - README.md
